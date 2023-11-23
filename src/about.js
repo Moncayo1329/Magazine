@@ -4,14 +4,9 @@ function about() {
     return (
       <div className="about">
         <h1>
-    <span>We</span>
-    <span>are </span>
-    <span>all </span>
-    <span>citizens </span>
-    <span>of </span>
-    <span>the </span>
-    <span>world </span>
-    
+    <span>We are</span> <br></br>
+    <span>all citizens</span> <br></br>
+    <span>of the world</span>
 
 
 

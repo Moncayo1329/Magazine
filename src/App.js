@@ -13,7 +13,9 @@ function App() {
         <Menu />
         
       </header>
+  
       <About />
+      
     </div>
   
   );
