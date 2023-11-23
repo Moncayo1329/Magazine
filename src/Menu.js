@@ -4,7 +4,7 @@ function Menu() {
        <nav>
         <ul>
           <li>Fotos</li>
-          <li>Sugerencias</li>
+          <li>Blog</li>
           <li>Nosotros</li>
         </ul>
       </nav>
