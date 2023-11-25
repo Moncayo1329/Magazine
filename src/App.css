@@ -22,11 +22,10 @@ body{
   height: 100px;
 display: flex;
 padding: 15px 90px;
-border: none !important;
+
 
  
 }
-
 
 
 
@@ -39,6 +38,7 @@ h1 {
   font-size: 80px;
   position: relative;
   top: 60px;
+  right: 400px;
 }
 @keyframes scale {
   100% {

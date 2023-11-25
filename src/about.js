@@ -1,5 +1,6 @@
 import './App.css'
 
+
 function about() {
     return (
       <div className="about">
@@ -7,13 +8,8 @@ function about() {
     <span>We are</span> <br></br>
     <span>all citizens</span> <br></br>
     <span>of the world</span>
-
-
-
-
-
-
         </h1>
+
         
       </div>
     
