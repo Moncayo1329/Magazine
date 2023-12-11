@@ -1,7 +1,7 @@
 import './App.css'
 
 
-function about() {
+function About() {
     return (
       <div className="about">
         <h1>
@@ -16,5 +16,5 @@ function about() {
     );
   }
   
-  export default about;
+  export {About} ;
   

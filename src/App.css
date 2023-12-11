@@ -6,7 +6,7 @@ body{
 
 /* Resto de tu CSS... */
 
-.App-header {
+.Menu {
   display: flex;
   justify-content: space-between;  /* Alinea los elementos horizontalmente */
   align-items: center;  /* Alinea los elementos verticalmente al centro */
