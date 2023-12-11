@@ -8,24 +8,30 @@ body{
 
 .Menu {
   display: flex;
-  justify-content: space-between;  /* Alinea los elementos horizontalmente */
-  align-items: center;  /* Alinea los elementos verticalmente al centro */
+  justify-content: space-between; /* Alinea los elementos horizontalmente */
   height: 70px;
   padding: 15px 30px;
   box-shadow: 0px 2.98256px 7.4564px rgba(82, 81, 81, 0.2);
   background-color: rgba(238, 238, 230, 0.808);
+  
 }
+
+.Menu li{
+
+  font-size: 1.5em;
+  list-style-type:none ;
+  display: inline;
+  padding: 60px;
+position: relative;
+left: 140%;
+
+
+
+}
+
 
 /* Resto de tu CSS... */
 
-.foto-logo{
-  height: 100px;
-display: flex;
-padding: 15px 90px;
-
-
- 
-}
 
 
 
