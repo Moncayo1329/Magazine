@@ -11,9 +11,7 @@ function App() {
     <div className="App">
       
 
-        <Menu />
-        
-    
+      <Menu />
   
       <About />
      
