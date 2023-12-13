@@ -16,10 +16,10 @@ function Menu() {
             <li>
             <Link to="/blog">
           Blog </Link> </li>
-          
+
           <li>
-            <Link to="./nosotros">
-            Nosotros </Link></li>
+            <Link to="/nosotros">
+            Nosotros</Link></li>
           
         </ul>
       </nav>
