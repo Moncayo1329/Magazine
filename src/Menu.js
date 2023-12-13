@@ -1,20 +1,25 @@
 import React from "react";
-import { Fotos } from "./fotos";
+import './App.css';
 import { Link } from "react-router-dom";
+
 
 function Menu() {
   return (
     <div className="Menu">
       <nav>
         <ul>
-          <h2 className="titulo">Núnka</h2>
-          <li>
-            <Link to={`/Fotos/${Fotos.link}`}>Fotos</Link>
-          </li>
+          <Link to="/Inicio">
+          <h2 className="titulo">Núnka</h2></Link>
+           <li>
+            <Link to="/fotos">Fotos</Link> </li>
           <li>Blog</li>
           <li>Nosotros</li>
+          
         </ul>
       </nav>
+
+ 
+
     </div>
   );
 }

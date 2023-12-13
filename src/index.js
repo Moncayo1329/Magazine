@@ -1,29 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route , Link } from 'react-router-dom';
 import './index.css';
-import App from './App';
-import { Fotos } from './fotos';
 import reportWebVitals from './reportWebVitals';
+import { Fotos } from './fotos';
+import { Inicio } from './Inicio';
+
+
 
 function Main() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/Fotos" element={<Fotos />} />
-      </Routes>
-    </BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+    <Link></Link>
+			<Routes>
+				<Route path="/Inicio" element={<Inicio />} />
+        <Route path="/fotos" element={<Fotos />} />
+			</Routes>
+		</BrowserRouter>
+	);
 }
 
 
-const root = createRoot(document.getElementById("root"));
-ReactDOM.render(
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
   <React.StrictMode>
-    <App />
-    <Main />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Main />
+</React.StrictMode>
 );
 
 reportWebVitals();
+

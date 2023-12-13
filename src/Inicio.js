@@ -1,15 +1,15 @@
-
 import { Menu } from './Menu';
+import { About } from './about';
 import './about.css';
 
-function App() {
+function Inicio() {
   return (
     <div className="App">
       <Menu />
+      <About />
       
     </div>
   );
 }
 
-export { App };
-
+export { Inicio };

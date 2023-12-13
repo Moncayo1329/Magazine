@@ -1,18 +1,10 @@
-import React from "react";
-
-
+import { Menu } from "./Menu";
 
 function Fotos() {
     return (
-      <div className="Menu">
-       <nav>
-        <ul>
-          <h2 className="titulo">Núnka</h2>
-          <li>Fotos</li>
-          <li>Blog</li>
-          <li>Nosotros</li>
-        </ul>
-      </nav>
+      <div>
+        <Menu />
+ <p>hola como estas chao</p>
       </div>
     );
   }
