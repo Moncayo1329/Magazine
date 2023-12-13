@@ -1,16 +1,15 @@
-
 import { Menu } from "./Menu";
 
 
 
-function Nosotros() {
+function Blog() {
     return (
       <div>
         <Menu />
- <p>Nosotros</p>
+ <p>Blog</p>
       </div>
     );
   }
   
-  export {Nosotros};
+  export {Blog};
   

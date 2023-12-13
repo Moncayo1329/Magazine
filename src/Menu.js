@@ -12,8 +12,14 @@ function Menu() {
           <h2 className="titulo">Núnka</h2></Link>
            <li>
             <Link to="/fotos">Fotos</Link> </li>
-          <li>Blog</li>
-          <li>Nosotros</li>
+
+            <li>
+            <Link to="/blog">
+          Blog </Link> </li>
+          
+          <li>
+            <Link to="./nosotros">
+            Nosotros </Link></li>
           
         </ul>
       </nav>

@@ -5,6 +5,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Fotos } from './fotos';
 import { App } from './App';
+import { Blog } from './blog';
+import { Nosotros } from './nosotros';
 
 
 
@@ -15,6 +17,8 @@ function Main() {
 			<Routes>
 				<Route path="/" element={<App />} />
         <Route path="/fotos" element={<Fotos />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/nosotros" element={<Nosotros />}/>
 			</Routes>
 		</BrowserRouter>
 	);
