@@ -8,7 +8,7 @@ function Menu() {
     <div className="Menu">
       <nav>
         <ul>
-          <Link to="/Inicio">
+          <Link to="/">
           <h2 className="titulo">Núnka</h2></Link>
            <li>
             <Link to="/fotos">Fotos</Link> </li>

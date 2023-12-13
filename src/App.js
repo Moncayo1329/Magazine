@@ -1,11 +1,12 @@
 
 import { Menu } from './Menu';
-import './about.css';
+import { About } from './about';
 
 function App() {
   return (
     <div className="App">
       <Menu />
+      <About />
       
     </div>
   );
