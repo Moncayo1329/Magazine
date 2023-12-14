@@ -1,4 +1,5 @@
 import { Menu } from "./Menu";
+import { Search } from "./Search";
 
 
 
@@ -6,7 +7,9 @@ function Blog() {
     return (
       <div>
         <Menu />
- <p>Blog</p>
+        <Search />
+        <p>Ultimos post</p>
+ 
       </div>
     );
   }
