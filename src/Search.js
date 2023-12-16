@@ -1,9 +1,9 @@
 import React from "react";
 
-function Search() {
-const [searchValue, setSearchValue] = React.
-useState('');
-console.log('Usuarios made the day ' + searchValue)
+function Search( {
+  searchValue,
+  setSearchValue,
+  }) {
 
 
     return(
