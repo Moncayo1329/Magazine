@@ -47,7 +47,7 @@ h1 {
   font-size: 80px;
   position: relative;
   top: 60px;
-  right: 400px;
+  right: 20px;
 }
 @keyframes scale {
   100% {
