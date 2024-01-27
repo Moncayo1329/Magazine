@@ -5,17 +5,17 @@ body{
   }
 
 /* Resto de tu CSS... */
-
+/*
 .Menu {
   display: flex;
-  justify-content: space-between; /* Alinea los elementos horizontalmente */
+  justify-content: space-between; 
   height: 70px;
   padding: 15px 30px;
   box-shadow: 0px 2.98256px 7.4564px rgba(82, 81, 81, 0.2);
   background-color: rgba(238, 238, 230, 0.808);
   
 }
-
+/*
 .Menu li{
 
   font-size: 1.5em;
@@ -96,3 +96,24 @@ span:nth-child(7) {
   }
 }
 
+
+
+.navbar{
+  padding: 2rem;
+  background-color: rgba(238, 238, 230, 0.808) ;
+  box-shadow: 0px 2.98256px 7.4564px rgba(82, 81, 81, 0.2);
+
+  
+  }
+  
+  .navbar-collapse{
+      align-items: center;
+      justify-content: space-between;
+  }
+
+
+  @media  screen and (max-width:767px) {
+    .navbar-brand{
+        display: none;
+    }
+}

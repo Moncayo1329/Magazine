@@ -3,30 +3,30 @@ import './App.css';
 import { Link } from "react-router-dom";
 
 
+
+
 function Menu() {
   return (
     <div className="Menu">
-      <nav>
-        <ul>
-          <Link to="/">
-          <h2 className="titulo ">Núnka</h2></Link>
-           <li>
-            <Link to="/fotos">Fotos</Link> </li>
-
-            <li>
-            <Link to="/blog">
-          Blog </Link> </li>
-
-          <li>
-            <Link to="/nosotros">
-            Nosotros</Link></li>
-          
-        </ul>
-      </nav>
-
- 
-
+  <nav className="navbar navbar-expand-md navbar-light">
+    <div className="container-fluid">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbar-toggler">  
+      <ul className="navbar-nav d-flex justify-content-center align-items-center">
+        <li><Link to="/"><h2 className="titulo">Núnka rgrgr</h2></Link></li>
+        <li><Link to="/fotos">Fotos</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/nosotros">Nosotros</Link></li>
+      </ul>
+      </div>
     </div>
+  </nav>
+</div>
+
+      
+ 
   );
 }
 
