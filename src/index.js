@@ -7,6 +7,7 @@ import { Fotos } from './fotos';
 import { App } from './App';
 import { Blog } from './blog';
 import { Nosotros } from './nosotros';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
