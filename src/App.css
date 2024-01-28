@@ -3,13 +3,6 @@ body{
   
   }
 
-/* Resto de tu CSS... */
-
-
-
-/* Resto de tu CSS... */
-
-
 
 
 h1 {
@@ -21,8 +14,9 @@ h1 {
   font-size: 80px;
   position: relative;
   top: 60px;
-  right: 20px;
+ 
 }
+
 @keyframes scale {
   100% {
     transform: scale(1);
@@ -77,12 +71,14 @@ span:nth-child(7) {
   background-color: rgba(238, 238, 230, 0.808) ;
   box-shadow: 0px 2.98256px 7.4564px rgba(82, 81, 81, 0.2);
 
+
   
   }
   
   .navbar-collapse{
       align-items: center;
       justify-content:flex-end;
+      
   }
 
 
@@ -90,4 +86,11 @@ span:nth-child(7) {
     .navbar-brand{
         display: none;
     }
+}
+
+h1{
+
+  font-size: 5rem;
+  text-align: center;
+
 }
