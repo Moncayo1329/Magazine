@@ -1,31 +1,17 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Menu } from "./Menu";
 
 
-function Fotos( {
-  searchValue,
-  setSearchValue,
-  }) {
-
-
-    return(
-
-    <form>
-    <input
-     placeholder="Busca tu viaje"
-          className='TodoSearch'
-          value={searchValue}
-         onChange={(event) => {
-            setSearchValue(event.target.value);
-           
-
-          } 
-        }
-    />
-     </form>
-    );
-    }
+function Fotos() {
+  return (
+    <div>
+      <Menu />
+<p>fotos</p>
+    </div>
+  );
+}
    
 
 
 export {Fotos}
+  

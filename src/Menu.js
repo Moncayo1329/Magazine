@@ -12,11 +12,11 @@ function Menu() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbar-toggler">
-          <a className="navbar-brand" href="#">Hidden brand</a>
+          <a className="navbar-brand">Hidden brand</a>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
-              <li className="nav-item"><Link to="/blog">Blog</Link></li>
-              <li className="nav-item"><Link to="/fotos">Fotos</Link></li>
-              <li className="nav-item"><Link to="/nosotros">Nosotros</Link></li>
+              <li className="nav-item"><Link to="/blog" className="nav-link">Blog</Link></li>
+              <li className="nav-item"><Link to="/fotos" className="nav-link">Fotos</Link></li>
+              <li className="nav-item"><Link to="/nosotros" className="nav-link">Nosotros</Link></li>
           </ul>
         </div>
       </div>
