@@ -12,7 +12,7 @@ function Menu() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbar-toggler">
-          <a className="navbar-brand">Hidden brand</a>
+          <a className="navbar-brand">Nunka magazine</a>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
               <li className="nav-item"><Link to="/blog" className="nav-link">Blog</Link></li>
               <li className="nav-item"><Link to="/fotos" className="nav-link">Fotos</Link></li>

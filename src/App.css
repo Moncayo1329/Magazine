@@ -1,106 +1,68 @@
-.body{
-  background-color:rgba(238, 238, 230, 0.808);
-  
-  }
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+
+}
 
 
 
-h1 {
-  font-family: "Montserrat Medium";
-  max-width: 45ch;
-  text-align: center;
-  transform: scale(0.98);
-  animation: scale 7s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  font-size: 10px;
+
+.waviy {
   position: relative;
-  top: 60px;
- 
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 70px;
 }
-
-@keyframes scale {
-  100% {
-    transform: scale(1);
-  }
-}
-
-span {
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
   display: inline-block;
-  opacity: 0;
-  filter: blur(4px);
+  color: #0c0b0b;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  top: 120px;
+ 
+  
 }
-
-span:nth-child(1) {
-  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(2) {
-  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(3) {
-  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(4) {
-  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(5) {
-  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(6) {
-  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(7) {
-  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-@keyframes fade-in {
-  100% {
-    opacity: 1;
-    filter: blur(0);
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
   }
 }
-
 
 .navbar{
-  padding: 15px;
-  background-color:rgba(241, 241, 229, 0.808);
+  padding: 2rem;
+  background-color:rgba(250, 250, 238, 0.808);
   box-shadow: 1px 2.98256px 7.4564px rgba(82, 81, 81, 0.2);
-height: 5rem;
-
-
   
   }
   
   .navbar-collapse{
       align-items: center;
-      justify-content:flex-end;
-      
+      justify-content: space-between;
+     
   }
-
-
+  
+  
+  
+  /* estilos generales */
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(253, 242, 228);
+  }
+  
+  
+ 
+  
   @media  screen and (max-width:767px) {
-    .navbar-brand{
-        display: none;
-    }
-}
-
-h1{
-
-  font-size: 15px;
-  text-align: center;
-
-}
-
-.nav-item {
-  text-decoration: none !important;
-}
-
-
-.frase{
-  font-size: 100px;
-  top: 100px;
-}
+      .navbar-brand{
+          display: none;
+      }
+  }
