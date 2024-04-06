@@ -68,4 +68,14 @@
       .navbar-brand{
           display: none;
       }
+  }  
+
+  /* estilos LOGO */
+  .logo{
+    width: 5rem;
+    border-radius: 50px;
+    
+
   }
+
+  
