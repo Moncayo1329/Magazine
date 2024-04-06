@@ -8,7 +8,7 @@ function About() {
         flexDirection: 'column', 
         alignItems: 'center',
         textAlign: 'center', // Alinear el texto al centro
-        fontSize: '5rem' // Hacer el tamaño de la fuente relativo al tamaño de la pantalla
+        fontSize: '4rem' // Hacer el tamaño de la fuente relativo al tamaño de la pantalla
       }}>
         <span style={{ '--i': 1 }}>We are</span>
         <span className='section-all' style={{ '--i': 2 }}>all</span>
