@@ -5,8 +5,9 @@ import { Menu } from "./Menu";
 function Blog() {
   return (
     <div>
-      <Menu />
-<p>blogs</p>
+      <Menu /> 
+       {/* Aqui escribir blogs en en mardown y unir a esta pagina*/}
+<h1>Sobre Nunka</h1> 
     </div>
   );
 }

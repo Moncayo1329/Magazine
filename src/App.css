@@ -2,10 +2,13 @@
 * {
   padding: 0;
   margin: 0;
-  box-shadow: #d7dee2;
+  box-shadow: #fbfcfc;
 
 }
 
+body{
+  background-color: white;
+}
 
 
 
@@ -38,7 +41,7 @@
 
 .navbar{
   padding: 2rem;
-  background-color:#d7dee2;
+  background-color:#f9fbfc;
   box-shadow: 1px 2.98256px 7.4564px rgba(82, 81, 81, 0.2);
   
   }
@@ -57,7 +60,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #ecf0f1;
+    background-color: white;
    
   }
   

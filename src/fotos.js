@@ -6,7 +6,10 @@ function Fotos() {
   return (
     <div>
       <Menu />
-<p>fotos</p>
+<h1>Machu Pichu</h1>
+ {/* Aqui Fotos*/} 
+ <h1>Cuenca, Ecuador</h1>
+
     </div>
   );
 }
