@@ -3,7 +3,7 @@ import './App.css';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Logonunka from './Image/logonunka.jpg'
+import Nunka from './Image/nunka.jpg'
 
 function Menu() {
   return (
@@ -14,7 +14,7 @@ function Menu() {
         </button>
         <div className="collapse navbar-collapse" id="navbar-toggler">
           <li className="navbar-brand nav-item"><Link to="/">
-         <img src={Logonunka} alt="Nunka logo"
+         <img src={Nunka} alt="Nunka logo"
        className="logo"
       ></img>
       </Link></li>

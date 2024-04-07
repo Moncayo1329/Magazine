@@ -1,5 +1,5 @@
 import { Menu } from "./Menu";
-import { FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaTwitter, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 function Nosotros() {

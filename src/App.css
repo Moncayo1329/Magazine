@@ -6,6 +6,12 @@
 
 }
 
+#favicon {
+ 
+  border-radius: 6px;
+}
+
+
 body{
   background-color: white;
 }
@@ -77,8 +83,58 @@ body{
   .logo{
     width: 5rem;
     border-radius: 50px;
+    background-color: white;
     
 
   }
 
-  
+  /* estilos footer  
+footer {
+  background-color: #f8f6f6;
+  color: #050505;
+  padding: 50px;
+  text-align: center;
+
+}
+
+*/ 
+
+.section_padding{
+
+padding: 4rem 4rem;
+
+
+
+}
+
+.footer{
+background-color: #fbfcfc;
+
+
+
+}
+
+.sb_footer{
+
+display: flex; 
+flex-direction: column;
+
+
+
+
+}  
+
+
+
+.sb_footer_Links{
+
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+text-align: left;
+margin-bottom: 2rem;
+
+}
