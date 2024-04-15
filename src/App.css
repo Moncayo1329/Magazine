@@ -2,27 +2,20 @@
 * {
   padding: 0;
   margin: 0;
-  box-shadow: #fbfcfc;
+  
 
 }
 
 #favicon {
  
   border-radius: 6px;
+
 }
-
-
-body{
-  background-color: white;
-}
-
-
-
 
 .waviy {
   position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-  font-size: 70px;
+  font-size: 65px;
 }
 .waviy span {
   font-family: 'Alfa Slab One', cursive;
@@ -45,6 +38,10 @@ body{
   }
 }
 
+
+
+
+
 .navbar{
   padding: 2rem;
   background-color:#f9fbfc;
@@ -66,7 +63,6 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: white;
    
   }
   

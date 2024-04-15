@@ -1,6 +1,7 @@
 import { Menu } from "./Menu";
 import { FaTwitter, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { Footer } from "./footer";
 
 function Nosotros() {
   return (
@@ -34,14 +35,14 @@ function Nosotros() {
         <h2>¿Quién está detrás de la web?</h2>
         <p style={{ color: '#46526f' }}>Este sitio fue creado y programado por Michael Moncayo.<br></br>
           El mundo debería ser más abierto y sin burocracia, <br></br>estamos ante un nuevo mundo, no dejemos que las ideas boomers no nos dejen avanzar hacia el futuro. 
-          <br></br>Programé este sitio desde cero porque me gusta hacer proyectos en mi tiempo libre. <br></br>
-          Si la vida me lo permite, iré mejorando la website así que cualquier feedback será más que bienvenido. <br></br>
-          Disfruten de la página HIPPIES.</p>
+          <br></br>Si la vida me lo permite, iré mejorando la website así que cualquier feedback será más que bienvenido. <br></br>
+          </p>
         
         <a href="https://twitter.com/MichaelMoncay7" className="text-decoration-none" style={{ color: '#46526f'}}> <FaTwitter /> @michaelmoncayo7</a> <br></br>
         <a href="https://github.com/Moncayo1329" className="text-decoration-none" style={{ color: '#46526f' }}> <FaGithub /> @Moncayo1329</a><br></br>
         <a href="mailto:moncayomichael23@gmail.com" className="text-decoration-none" style={{ color: '#46526f' }}> <MdEmail /> moncayomichael23@gmail.com</a>	
       </div>
+      <Footer />
     </div>
   );
 }
