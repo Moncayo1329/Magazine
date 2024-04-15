@@ -14,7 +14,6 @@
 
 .waviy {
   position: relative;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
   font-size: 65px;
 }
 .waviy span {
@@ -24,7 +23,6 @@
   color: #0c0b0b;
   text-transform: uppercase;
   animation: waviy 1s infinite;
-  animation-delay: calc(.1s * var(--i));
   top: 120px;
  
   
