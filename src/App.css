@@ -144,7 +144,7 @@ margin-bottom: 2rem;
 
  /* Articulos */
 
- .Articulolist {
+ .bloglist {
   width: 90vw;
   max-width: 1170px;
   margin: 5rem auto;
@@ -152,24 +152,24 @@ margin-bottom: 2rem;
   gap: 2rem;
 }
 @media screen and (min-width: 768px) {
-  .Articulolist {
+  .bloglist {
     grid-template-columns: repeat(3, 1fr);
     /* align-items: start; */
   }
 }
 
-.book{
+.blog{
 
   background:#fcfafa;
   border-radius: 2rem;
   padding: 1rem 2rem;
 }
 
-.book h1{
+.blog h1{
   margin-top: 0.5rem;
 }
 
 
-.book p{
+.blog p{
   margin-top: 0.5rem;
 }

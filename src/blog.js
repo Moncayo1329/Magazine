@@ -8,7 +8,7 @@ function Blog(props) {
     <div>
       <Menu /> 
       {/* Aqui escribir blogs en en mardown y unir a esta pagina*/} 
-      <section className="Articulolist"> 
+      <section className="bloglist"> 
         {Blogs.map((blog, index) => ( 
           <Renderpost 
             key={index} 
