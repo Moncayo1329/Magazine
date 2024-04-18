@@ -2,7 +2,14 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   
+
+}
+
+body{
+  background-color: #f1f5f8;
+  color: #0c0b0b;
 
 }
 
@@ -131,4 +138,38 @@ width: 100%;
 text-align: left;
 margin-bottom: 2rem;
 
+}
+
+
+
+ /* Articulos */
+
+ .Articulolist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .Articulolist {
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: start; */
+  }
+}
+
+.book{
+
+  background:#fcfafa;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+}
+
+.book h1{
+  margin-top: 0.5rem;
+}
+
+
+.book p{
+  margin-top: 0.5rem;
 }

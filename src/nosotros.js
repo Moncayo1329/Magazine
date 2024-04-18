@@ -33,7 +33,7 @@ function Nosotros() {
             en lugar de limitarse.</p>
 
         <h2>¿Quién está detrás de la web?</h2>
-        <p style={{ color: '#46526f' }}>Este sitio fue creado y programado por Michael Moncayo.<br></br>
+        <p style={{ color: '#46526f' }}>Este sitio fue creado por Michael Moncayo.<br></br>
           El mundo debería ser más abierto y sin burocracia, <br></br>estamos ante un nuevo mundo, no dejemos que las ideas boomers no nos dejen avanzar hacia el futuro. 
           <br></br>Si la vida me lo permite, iré mejorando la website así que cualquier feedback será más que bienvenido. <br></br>
           </p>
