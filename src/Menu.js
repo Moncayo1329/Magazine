@@ -19,7 +19,7 @@ function Menu() {
       ></img>
       </Link></li>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
-          <nav className="nav-item"><Link to="/" className="nav-link">Inicio</Link></nav>
+          <nav className="nav-item"><Link to="/" className="nav-link">Inic</Link></nav>
             <li className="nav-item"><Link to="/blog" className="nav-link">Blog</Link></li>
               <li className="nav-item"><Link to="/fotos" className="nav-link">Fotos</Link></li>
               <li className="nav-item"><Link to="/nosotros" className="nav-link">Nosotros</Link></li>
