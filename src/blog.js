@@ -2,6 +2,7 @@ import React from "react";
 import { Menu } from "./Menu";
 import { Blogs } from "../src/data/blogpost"; // Cambiado a Blogs
 import Renderpost from "./renderpost";
+import { Footer } from "./footer";
 
 function Blog(props) {
   return (
@@ -16,7 +17,8 @@ function Blog(props) {
             Title={blog.Title} 
             Description={blog.Description} 
           />
-        ))}
+        ))} 
+        <Footer />
       </section>
     </div>
   );
