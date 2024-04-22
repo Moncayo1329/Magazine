@@ -2,14 +2,14 @@ import React from "react";
 import './App.css'
 import { FaTwitter, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import Comprame from "./button";
+
 
 
 function Footer() {
   return (
     <footer className="contacto seccion-oscura d-flex-column aling-items-center justify-conten-center">
       <p className="footer-texto text-center">Para mantener la pagina libre de adds, compranos 
-      <Comprame />
+    
       </p>
 
       <div className="iconos-redes-sociales d-flex flex-wrap aling-items-center justify-content-center">
