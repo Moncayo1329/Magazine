@@ -179,6 +179,7 @@ margin-bottom: 2rem;
 
  footer{
 min-height: 200px;
+background-color: #faf8f8;
 
  }
 
@@ -222,4 +223,10 @@ text-align: center;
 
  .contacto {
   margin-top: 80px; /* Ajusta este valor según sea necesario */
+} 
+
+.footer-texto{
+
+  margin-top: 80px; 
+
 }
