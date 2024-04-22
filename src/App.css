@@ -173,3 +173,49 @@ margin-bottom: 2rem;
 .blog p{
   margin-top: 0.5rem;
 }
+
+
+ /* Pie de pagina  */
+
+ footer{
+min-height: 200px;
+
+ }
+
+ .footer-texto{
+font-size: 1.5rem;
+padding: 20px;
+margin-bottom: 30px;
+
+ }
+
+ .iconos-redes-sociales a{
+width: 50px; 
+height: 40px ;
+display: flex; 
+align-items: center;
+justify-content: center; 
+padding: 2px;
+margin: 10px;
+border: 2px solid white; 
+border-radius: 50%;
+transform: all 0.2s ease-in;
+
+ }
+
+ .iconos-redes-sociales a{
+
+color: white;
+font-size: 2rem;
+transition: all 0.2s ease-in;
+
+ }
+
+
+.derechos-de-autor{
+
+font-size: 15px;
+color: #686666;
+padding: 20px;
+text-align: center;
+ }
