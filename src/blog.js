@@ -18,8 +18,8 @@ function Blog(props) {
             Description={blog.Description} 
           />
         ))} 
-        <Footer />
       </section>
+      <Footer />
     </div>
   );
 }
