@@ -2,15 +2,18 @@ import React from "react";
 import './App.css'
 import { FaTwitter, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import Comprame from "./button";
 
 
 
 function Footer() {
   return (
     <footer className="contacto seccion-oscura d-flex-column aling-items-center justify-conten-center">
-      <p className="footer-texto text-center">Para mantener la pagina libre de adds, compranos 
-    
-      </p>
+      <p className="footer-texto text-center">Para mantener la página libre de anuncios. <br></br>Cómprame
+</p> 
+<Comprame />
+  
+
 
       <div className="iconos-redes-sociales d-flex flex-wrap aling-items-center justify-content-center">
         <a href="https://twitter.com/MichaelMoncay7" className="text-decoration-none" style={{ color: '#46526f'}}> <FaTwitter /></a> 

@@ -85,6 +85,7 @@ body{
     width: 5rem;
     border-radius: 50px;
     background-color: white;
+    color: white;
     
 
   }
@@ -178,8 +179,8 @@ margin-bottom: 2rem;
  /* Pie de pagina  */
 
  footer{
-min-height: 50px;
-background-color: #faf8f8;
+min-height: 40px;
+background-color: #faf7f7;
 
  }
 
@@ -187,7 +188,7 @@ background-color: #faf8f8;
 font-size: 1.5rem;
 padding: 20px;
 margin-bottom: 30px;
-
+font-family:"Jersey 25", sans-serif;
  }
 
  .iconos-redes-sociales a{
@@ -215,8 +216,8 @@ transition: all 0.2s ease-in;
 
 .derechos-de-autor{
 
-font-size: 15px;
-color: #686666;
+font-size: 10px;
+color: #a1a1a1;
 padding: 20px;
 text-align: center;
  }
@@ -227,6 +228,15 @@ text-align: center;
 
 .footer-texto{
 
-  margin-top: 140px; 
+  margin-top: 300px; 
+  font-family:"Jersey 25", sans-serif;
 
+}
+
+
+.button {
+  margin-bottom: 30px; /* Ajusta este valor según sea necesario para moverlo más arriba */
+  text-align: center;
+  justify-content: center;
+  font-family:"Jersey 25", sans-serif;
 }

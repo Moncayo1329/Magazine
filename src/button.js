@@ -4,20 +4,22 @@ function Comprame() {
   const donationPageUrl = "https://ko-fi.com/michaelmoncayo7";
 
   return (
-    <a href={donationPageUrl} style={{ textDecoration: "none" }}>
-      <button
-        style={{
-          backgroundColor: "brown",
-          color: "white",
-          padding: "10px 20px",
-          border: "none",
-          borderRadius: "5px",
-          cursor: "pointer"
-        }}
-      >
-        Un cafecito
-      </button>
-    </a>
+    <div className="button">
+      <a href={donationPageUrl} style={{ textDecoration: "none" }}>
+        <button
+          style={{
+            backgroundColor: "brown",
+            color: "white",
+            padding: "10px 30px", 
+            border: "none",
+            borderRadius: "5px",
+            cursor: "pointer"
+          }}
+        >
+          Un cafecito
+        </button>
+      </a>
+    </div>
   );
 }
 
