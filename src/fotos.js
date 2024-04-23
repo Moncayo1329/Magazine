@@ -16,26 +16,42 @@ function Fotos() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <div className="container">
-          <img src={Foto2} className="testimonio-imagen  d-block w-100" alt="Primera imagen" />
-          <div>
-            <p className="testimonio">Machu Pichu</p>
-          </div>
-          </div>
-        </div>
-        <div className="carousel-item">
-        <div className="container">
-          <img src={Foto3} className="testimonio-imagen  d-block w-100" alt="Primera imagen" />
-          <div>
-            <p className="testimonio">Machu Pichu</p>
-          </div>
+            <img src={Foto2} className="testimonio-imagen d-block w-100" alt="Primera imagen" />
+            <div>
+            <p className="testimonio" style={{ 
+  fontSize: '15px',
+  color: '#a1a1a1',
+  padding: '20px',
+  textAlign: 'center'
+}}>Machu Pichu</p>
+            </div>
           </div>
         </div>
         <div className="carousel-item">
-        <div className="container">
-          <img src={Foto4} className="testimonio-imagen  d-block w-100" alt="Primera imagen" />
-          <div>
-            <p className="testimonio">Machu Pichu</p>
+          <div className="container">
+            <img src={Foto3} className="testimonio-imagen d-block w-100" alt="Segunda imagen" />
+            <div>
+            <p className="testimonio" style={{ 
+  fontSize: '15px',
+  color: '#a1a1a1',
+  padding: '20px',
+  textAlign: 'center'
+}}>Machu Pichu</p>
+            </div>
           </div>
+        </div>
+        <div className="carousel-item">
+          <div className="container">
+            <img src={Foto4} className="testimonio-imagen d-block w-100" alt="Tercera imagen" />
+            <div>
+            <p className="testimonio" style={{ 
+  fontSize: '15px',
+  color: '#a1a1a1',
+  padding: '20px',
+  textAlign: 'center'
+}}>Machu Pichu</p>
+
+            </div>
           </div>
         </div>
       </div>
@@ -48,9 +64,9 @@ function Fotos() {
         <span className="visually-hidden">Siguiente</span>
       </button>
     </div>
-    <div className="cuadro"></div>
   </div>
 </section>
+
 
 
       <Footer />

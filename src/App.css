@@ -244,50 +244,52 @@ text-align: center;
 
 /* Carrusel fotos */
 
-.testimonios{
-
-  padding: 40px 40px  80px 40px;
+.testimonios {
+  padding: 40px 40px 80px 40px;
 }
 
-.testimonios .carousel{
-
+.testimonios .carousel {
   max-width: 800px;
-  
-
-
+  margin: 0 auto; /* Para centrar horizontalmente */
 }
 
-
-.carousel-item{ 
-
+.carousel-item {
   height: 800px;
-
-} 
-
+  display: flex;
+  justify-content: center;
+}
 .carousel-item .container{
 
-width: 100%; 
-height: 100%; 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-
-
-
-}
-
-
-.testimonio-imagen{
-  height: 150px;
-  width: 150px;
-  margin: 10px 10px 20px 20px;
-}
-
-@media screen and(max-width:800px){
-  .testimonio-imagen{
-    height: 120px;
-    width: 120px;
-  }
+  width: 100%; 
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
+  
+  
+  }
+
+.testimonio-imagen {
+  height: 500px;
+  width: 400px;
+  margin: 10px 10px 20px 20px;
+  border-radius: 60px;/* Espacio uniforme alrededor de las imágenes */
 }
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+
+.testimonio p{
+
+  font-size: 10px;
+  color: #a1a1a1;
+  padding: 20px;
+  text-align: center;
+   }
