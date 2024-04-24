@@ -1,9 +1,14 @@
-export const Fotos = [
+export const Fotosblog = [
     {
         id:'1',
-        img:'https://m.media-amazon.com/images/I/81aDxpFVw8L._AC_UF1000,1000_QL80_.jpg',
+        imgs: [
+            require('../Imagenes/imgMachuPichu/foto2.png'),
+            require('../Imagenes/imgMachuPichu/foto3.png'),
+            require('../Imagenes/imgMachuPichu/IMG_1053.png'),
+            
+        ],
         Title:'Nunka',
-        Description:'Nunka es una website hippie sobre viajes y experiencias atraves de esta website'
+       
     
     },
     

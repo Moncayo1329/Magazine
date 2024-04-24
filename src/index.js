@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Cambia la importación aquí
+import ReactDOM from 'react-dom'; // Importa ReactDOM correctamente
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
