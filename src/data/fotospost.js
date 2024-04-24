@@ -1,4 +1,4 @@
-export const Fotosblog = [
+export const FotosData = [
     {
         id:'1',
         imgs: [
