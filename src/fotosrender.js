@@ -6,20 +6,20 @@ function Render({ fotos }) {
     <section className="testimonios seccion-clara">
   <div id="testimonios-carrusel" className="carousel carousel-dark slide" data-bs-ride="carousel">
     <div className="carousel-inner">
-      {fotos.map((foto, index) => (
-        <div key={foto.id} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-          {foto.imgs.map((img, imgIndex) => (
+      {fotos.map(foto => (
+			 foto.imgs.map((img, imgIndex) => (
+        <div key={imgIndex} className={`carousel-item ${imgIndex === 0 ? 'active' : ''}`}>
             <img
               key={imgIndex}
               src={img}
               className="testimonio-imagen d-block w-100"
               alt={`Imagen ${imgIndex + 1}`}
             />
-          ))}
           <div>
             <p className="testimonio">{foto.Title}</p>
           </div>
         </div>
+        ))
       ))}
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
