@@ -16,7 +16,7 @@ function Render({ fotos }) {
               alt={`Imagen ${imgIndex + 1}`}
             />
           <div>
-            <p className="testimonio">{foto.Title}</p>
+            <p className="testimonio" style={{}}>{foto.Title}</p>
           </div>
         </div>
         ))
@@ -30,6 +30,7 @@ function Render({ fotos }) {
       <span className="carousel-control-next-icon" aria-hidden="true"></span>
       <span className="visually-hidden">Siguiente</span>
     </button>
+
   </div>
 </section>
 

@@ -285,7 +285,6 @@ text-align: center;
   }
 }
 
-
 .testimonio p{
 
   font-size: 10px;
@@ -293,3 +292,43 @@ text-align: center;
   padding: 20px;
   text-align: center;
    }
+
+
+   /* Contenedor para centrar los botones del carrusel */
+/* Estilos para las flechas del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 70px; /* Ancho de las flechas */
+  height: 50px; /* Altura de las flechas */
+ background-color: #a1a1a1;
+ color: antiquewhite;
+  border: none; /* Sin borde */
+  
+  opacity: 0.9; /* Opacidad de las flechas */
+  transition: opacity 0.3s ease; /* Transición suave de la opacidad */
+  margin-top: 150px;
+}
+
+
+@media (min-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 100px; /* Ancho aumentado para pantallas más grandes */
+    height: 70px; /* Altura aumentada para pantallas más grandes */
+    margin-top: 220px; /* Eliminar el margen superior */
+  }
+}
+
+
+.testimonio{
+
+  font-size: 15px;
+  color: #a1a1a1;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+ 
+   }
+
+
+

@@ -7,7 +7,7 @@ export const FotosData = [
             require('../Imagenes/imgMachuPichu/IMG_1053.png'),
             
         ],
-        Title:'Nunka',
+        Title:'Machu Pichu',
        
     
     },

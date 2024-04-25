@@ -1,6 +1,7 @@
 import { Menu } from "./Menu";
-import { FaTwitter, FaGithub } from 'react-icons/fa';
+import {  FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { BsTwitterX } from "react-icons/bs";
 import { Footer } from "./footer";
 
 function Nosotros() {
@@ -38,7 +39,7 @@ function Nosotros() {
           <br></br>Si la vida me lo permite, iré mejorando la website así que cualquier feedback será más que bienvenido. <br></br>
           </p>
         
-        <a href="https://twitter.com/MichaelMoncay7" className="text-decoration-none" style={{ color: '#46526f'}}> <FaTwitter /> @michaelmoncayo7</a> <br></br>
+        <a href="https://twitter.com/MichaelMoncay7" className="text-decoration-none" style={{ color: '#46526f'}}><BsTwitterX /> @MichaelMoncay7</a> <br></br>
         <a href="https://github.com/Moncayo1329" className="text-decoration-none" style={{ color: '#46526f' }}> <FaGithub /> @Moncayo1329</a><br></br>
         <a href="mailto:moncayomichael23@gmail.com" className="text-decoration-none" style={{ color: '#46526f' }}> <MdEmail /> moncayomichael23@gmail.com</a>	
       </div>

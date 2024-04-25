@@ -4,6 +4,7 @@ import { Footer } from "./footer";
 import {Render} from "./fotosrender"; // Importa Render como componente predeterminado
 import { FotosData } from "./data/fotospost";
 
+
 function Fotos() {
   return (
     <div>
