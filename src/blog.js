@@ -8,7 +8,7 @@ function Blog(props) {
   return (
     <div>
       <Menu /> 
-      {/* Aqui escribir blogs en en mardown y unir a esta pagina*/} 
+      {/* Aquí escribir blogs en en markdown y unir a esta página*/} 
       <section className="bloglist"> 
         {Blogs.map((blog, index) => ( 
           <Renderpost 
@@ -16,6 +16,7 @@ function Blog(props) {
             img={blog.img} 
             Title={blog.Title} 
             Description={blog.Description} 
+            markdownPath={blog.markdownPath} // Agrega la propiedad markdownPath
           />
         ))} 
       </section>
@@ -25,5 +26,3 @@ function Blog(props) {
 }
    
 export { Blog };
-
-  

@@ -1,11 +1,11 @@
-export const Blogs = [
-{
-    id:'1',
-    img:'https://m.media-amazon.com/images/I/81aDxpFVw8L._AC_UF1000,1000_QL80_.jpg',
-    Title:'Nunka',
-    Description:'Nunka es una website hippie sobre viajes y experiencias atraves de esta website'
 
-},
+export const Blogs = [
+    {
+        id:'1',
+        img:'https://m.media-amazon.com/images/I/81aDxpFVw8L._AC_UF1000,1000_QL80_.jpg',
+        Title:'Nunka',
+        Description:'Nunka es una website hippie sobre viajes y experiencias atraves de esta website leer mas..',
+    },
 {
     id:'1',
     img:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Collage_Cuenca.png/800px-Collage_Cuenca.png',

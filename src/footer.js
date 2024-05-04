@@ -23,7 +23,7 @@ function Footer() {
         <a href="https://www.instagram.com/nunkamagazine?igsh=c2VtZHNpN3JoOWVt" className="text-decoration-none" style={{ color: '#46526f' }}> <FaInstagram /></a>
         <a href="mailto:moncayomichael23@gmail.com" className="text-decoration-none" style={{ color: '#46526f' }}> <MdEmail /></a>
       </div>
-      <div className="derechos-de-autor">Creado por Michael Moncayo (2023) &#169; </div>
+      <div className="derechos-de-autor">Creado por Michael Moncayo (2024) &#169; </div>
     </footer>
   );
 }
