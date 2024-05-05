@@ -15,8 +15,8 @@ function Blog(props) {
             key={index} 
             img={blog.img} 
             Title={blog.Title} 
-            Description={blog.Description} 
-            markdownPath={blog.markdownPath} // Agrega la propiedad markdownPath
+            Description={blog.Description}
+            Link={blog.Link} 
           />
         ))} 
       </section>
