@@ -154,12 +154,7 @@ margin-bottom: 2rem;
     grid-template-columns: repeat(3, 1fr);
     /* align-items: start; */
   }
-  .fotoslist {
-    width: 90vw;
-    margin: 5rem auto;
-    display: grid;
-    gap: 2rem;
-  }
+  
 }
 
 .blog{
@@ -260,12 +255,7 @@ text-align: center;
     height: 300px;
     width: 300px;
   }
-  .fotoslist {
-    width: 90vw;
-    margin: 5rem auto;
-    display: grid;
-    gap: 2rem;
-  }
+ 
 }
 
 .testimonio p{
@@ -292,12 +282,7 @@ text-align: center;
 
   
 @media (min-width: 768px) {
-  .fotoslist {
-    width: 90vw;
-    margin: 5rem auto;
-    display: grid;
-    gap: 2rem;
-  }
+ 
  
 }
 
@@ -311,3 +296,5 @@ text-align: center;
   font-weight: bold;
  
    }
+
+
