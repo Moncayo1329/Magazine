@@ -90,16 +90,6 @@ body{
 
   }
 
-  /* estilos footer  
-footer {
-  background-color: #f8f6f6;
-  color: #050505;
-  padding: 50px;
-  text-align: center;
-
-}
-
-*/ 
 
 .section_padding{
 
@@ -152,10 +142,23 @@ margin-bottom: 2rem;
   display: grid;
   gap: 2rem;
 }
+.fotoslist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
 @media screen and (min-width: 768px) {
   .bloglist {
     grid-template-columns: repeat(3, 1fr);
     /* align-items: start; */
+  }
+  .fotoslist {
+    width: 90vw;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
   }
 }
 
@@ -234,12 +237,7 @@ text-align: center;
 }
 
 
-.button {
-  margin-bottom: 30px; /* Ajusta este valor según sea necesario para moverlo más arriba */
-  text-align: center;
-  justify-content: center;
-  font-family:"Jersey 25", sans-serif;
-}
+
 
 
 /* Carrusel fotos */
@@ -248,32 +246,11 @@ text-align: center;
   padding: 40px 40px 80px 40px;
 }
 
-.testimonios .carousel {
-  max-width: 800px;
-  margin: 0 auto; /* Para centrar horizontalmente */
-}
 
-.carousel-item {
-  height: 800px;
-  display: flex;
-  justify-content: center;
-}
-.carousel-item .container{
-
-  width: 100%; 
-  height: 100%; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
-  
-  
-  }
 
 .testimonio-imagen {
-  height: 500px;
-  width: 400px;
+  height: 300px;
+  width: 200px;
   margin: 10px 10px 20px 20px;
   border-radius: 60px;/* Espacio uniforme alrededor de las imágenes */
 }
@@ -282,6 +259,12 @@ text-align: center;
   .testimonio-imagen {
     height: 300px;
     width: 300px;
+  }
+  .fotoslist {
+    width: 90vw;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
   }
 }
 
@@ -292,31 +275,30 @@ text-align: center;
   padding: 20px;
   text-align: center;
    }
+   .fotoslist {
+    width: 90vw;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+  }
 
 
    /* Contenedor para centrar los botones del carrusel */
 /* Estilos para las flechas del carrusel */
-.carousel-control-prev,
-.carousel-control-next {
-  width: 70px; /* Ancho de las flechas */
-  height: 50px; /* Altura de las flechas */
- background-color: #a1a1a1;
- color: antiquewhite;
-  border: none; /* Sin borde */
+
+
+
+
+
   
-  opacity: 0.9; /* Opacidad de las flechas */
-  transition: opacity 0.3s ease; /* Transición suave de la opacidad */
-  margin-top: 150px;
-}
-
-
 @media (min-width: 768px) {
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 100px; /* Ancho aumentado para pantallas más grandes */
-    height: 70px; /* Altura aumentada para pantallas más grandes */
-    margin-top: 220px; /* Eliminar el margen superior */
+  .fotoslist {
+    width: 90vw;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
   }
+ 
 }
 
 
@@ -329,6 +311,3 @@ text-align: center;
   font-weight: bold;
  
    }
-
-
-

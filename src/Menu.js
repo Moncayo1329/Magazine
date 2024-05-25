@@ -13,11 +13,11 @@ function Menu() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbar-toggler">
-          <li className="navbar-brand nav-item"><Link to="/">
-         <img src={Nunka} alt="Nunka logo"
-       className="logo"
-      ></img>
-      </Link></li>
+        <div className="navbar-brand nav-item">
+      <Link to="/" style={{ textDecoration: 'none' }}>
+        <img src={Nunka} alt="Nunka logo" className="logo" />
+      </Link>
+    </div>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
           <nav className="nav-item"><Link to="/" className="nav-link">Inicio</Link></nav>
             <li className="nav-item"><Link to="/blog" className="nav-link">Blog</Link></li>
