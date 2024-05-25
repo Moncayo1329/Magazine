@@ -1,15 +1,26 @@
 import React from "react";
 import { Menu } from "./Menu";
+import { Blogs } from "../src/data/blogpost"; // Cambiado a Blogs
+import Renderpost from "./renderpost";
 import { Footer } from "./footer";
-import {Render} from "./fotosrender"; // Importa Render como componente predeterminado
-import { FotosData } from "./data/fotospost";
 
 
 function Fotos() {
   return (
     <div>
-      <Menu />
-      <Render fotos={FotosData} />
+      <Menu /> 
+      {/* Aquí escribir blogs en en markdown y unir a esta página*/} 
+      <section className="bloglist"> 
+        {Blogs.map((blog, index) => ( 
+          <Renderpost 
+            key={index} 
+            img={blog.img} 
+            Title={blog.Title} 
+            Description={blog.Description}
+            Link={blog.Link} 
+          />
+        ))} 
+      </section>
       <Footer />
     </div>
   );
