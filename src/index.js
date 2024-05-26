@@ -7,6 +7,7 @@ import { Fotos } from './fotos';
 import { App } from './App';
 import { Blog } from './blog';
 import { Nosotros } from './nosotros';
+import { Machu } from './Fotospublish/Machu';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -15,10 +16,14 @@ function Main() {
     <BrowserRouter>
       <Link></Link>
       <Routes>
+         {/* Rutas principales */}
         <Route path="/" element={<App />} />
         <Route path="/fotos" element={<Fotos />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/nosotros" element={<Nosotros />} />
+        {/* Ruta para blogs*/}
+         {/* Ruta para Fotos */}
+        <Route path="/Machu-Pichu" element={<Machu />} />
       </Routes>
     </BrowserRouter>
   );

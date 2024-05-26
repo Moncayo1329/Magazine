@@ -1,16 +1,16 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './App.css';
-import { HiMenuAlt4 } from "react-icons/hi";
 
 function Render(props) {
   return (
-    <a href={`${props.Link}`}>
+    <Link to={props.Link}>
     <article className="blog"> 
       <img src={props.img} alt='' width='50px' />
-      <h6>{props.Title}</h6> 
+      <h6>{props.Title}</h6>
       <p>{props.Description}</p>
     </article>
-  </a>
+  </Link>
 
   
   );

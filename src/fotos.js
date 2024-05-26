@@ -17,7 +17,7 @@ function Fotos(props) {
             img={FotosData.img} 
             Title={FotosData.Title} 
             Description={FotosData.Description}
-            Link={FotosData.Link} 
+            Link={FotosData.Link}
           />
         ))} 
       </section>
