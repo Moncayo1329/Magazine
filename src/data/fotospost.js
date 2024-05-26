@@ -2,8 +2,8 @@ export const FotosData = [
     {
         id:'1',
         img:'https://m.media-amazon.com/images/I/81aDxpFVw8L._AC_UF1000,1000_QL80_.jpg',
-        Title:'Machu Pichu',
-       Link:'/Machu-Pichu'
+        Title:'Peru',
+       Link:'/fotos/MachuPichu'
     },
 {
     id:'1',

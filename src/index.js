@@ -23,7 +23,7 @@ function Main() {
         <Route path="/nosotros" element={<Nosotros />} />
         {/* Ruta para blogs*/}
          {/* Ruta para Fotos */}
-        <Route path="/Machu-Pichu" element={<Machu />} />
+        <Route path="/fotos/MachuPichu" element={<Machu />} />
       </Routes>
     </BrowserRouter>
   );
