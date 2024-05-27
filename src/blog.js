@@ -16,7 +16,7 @@ function Blog(props) {
             img={blog.img} 
             Title={blog.Title} 
             Description={blog.Description}
-            Link={blog.Link} 
+            Link={blog.Link}  
           />
         ))} 
       </section>
