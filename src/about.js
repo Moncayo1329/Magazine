@@ -12,9 +12,8 @@ function About() {
       }}>
         <span style={{ '--i': 1 }}>El</span>
         <span className='section-all' style={{ '--i': 2 }}>mundo</span>
-        <span style={{ '--i': 2 }}>es</span>
-        <span style={{ '--i': 3 }}>de</span>
-        <span style={{ '--i': 3 }}>todos</span>
+        <span style={{ '--i': 2 }}>es de</span>
+        <span className='section-all' style={{ '--i': 2 }}>Todos🌍</span>
       </h1>
     </section>
   );
