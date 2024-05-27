@@ -1,8 +1,8 @@
-¿Qué es Núnka?
+#¿Qué es Núnka?
 
 Núnka es un sitio web hippie con el objetivo de compartir experiencias, fotografías, comidas, blogs, bebidas, escritos y viajes.
 
-¿Por qué creamos Núnka?
+## ¿Por qué creamos Núnka?
 
 Creemos que viajar es para cada persona, nos enseña sobre nosotros y aprendemos de los demás.
 
@@ -16,11 +16,12 @@ Creemos que viajar abre la puerta a las experiencias más maravillosas e inolvid
 
 Hemos aprendido que el mejor viaje consiste en exponerse, en dejar atrás lo cotidiano, en sumergirse, en lugar de limitarse.
 
-¿Quién está detrás de la web?
+ ## ¿Quién está detrás de la web?
 
 Este sitio fue creado por Michael Moncayo.
 
-El mundo debería ser más abierto y sin burocracia, estamos ante un nuevo mundo, no dejemos que las ideas boomer no nos dejen avanzar hacia el futuro.
+El mundo debería ser más abierto y sin burocracia, estamos ante un nuevo mundo, no dejemos que las ideas viejas nos atrapen en el pasado.
+
 
 
       

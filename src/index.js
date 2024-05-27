@@ -8,6 +8,7 @@ import { App } from './App';
 import { Blog } from './blog';
 import { Nosotros } from './nosotros';
 import { Machu } from './Fotospublish/Machu';
+import { Rutas } from './blogpost/blog1'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -22,6 +23,7 @@ function Main() {
         <Route path="/Blog" element={<Blog />} />
         <Route path="/nosotros" element={<Nosotros />} />
         {/* Ruta para blogs*/}
+        <Route path="/blog/Nunka" element={<Rutas />} />
          {/* Ruta para Fotos */}
         <Route path="/fotos/MachuPichu" element={<Machu />} />
       </Routes>

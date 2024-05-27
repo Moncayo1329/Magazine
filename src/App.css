@@ -141,6 +141,7 @@ margin-bottom: 2rem;
   margin: 5rem auto;
   display: grid;
   gap: 2rem;
+  text-decoration: none;
 }
 .fotoslist {
   width: 90vw;
