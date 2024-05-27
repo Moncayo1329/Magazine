@@ -16,6 +16,8 @@ body{
 
 
 
+
+
 #favicon {
  
   border-radius: 6px;
@@ -47,7 +49,11 @@ body{
 }
 
   /* Blog styles */
-
+  
+  .post{
+    text-align: center;
+    color: #130d0d;
+  }
 
 
 

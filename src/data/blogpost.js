@@ -10,8 +10,8 @@ export const Blogs = [
 {
     id:'1',
     img:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Collage_Cuenca.png/800px-Collage_Cuenca.png',
-    Title:'Cuenca',
-    Description:'De las mejores ciudades del ecuador' ,
+    Title:'Kayak',
+    Description:'Cronicas del descenso sobre el rio bla bla bla.' ,
     Link:'https://en.wikipedia.org/wiki/Peter_Thiel'
 
 },

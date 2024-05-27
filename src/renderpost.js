@@ -8,7 +8,7 @@ function Renderpost(props) {
     <Link to={props.Link}  style={{ textDecoration: 'none' }}>
       <img src={props.img} alt='' width='50px' />
       <h1 style={{ color: '#161748' }}>{props.Title}</h1> 
-      <p style={{ color: 'black' }}>{props.Description}</p>
+      <p style={{ color: '#46526f' }}>{props.Description}</p>
   </Link>
   </article>
 );
