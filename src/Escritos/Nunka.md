@@ -21,8 +21,7 @@ Hemos aprendido que el mejor viaje consiste en exponerse, en dejar atrás lo cot
 ## ¿Quién está detrás de la web?
 
 <p style="color: #46526f;">Este sitio fue creado por Michael Moncayo.
-
-El mundo debería ser más abierto y sin burocracia, estamos ante un nuevo mundo, no dejemos que las ideas viejas nos atrapen en el pasado.</p>
+El mundo debería ser más abierto y sin burocracia, estamos ante un nuevo mundo,<br>no dejemos que las ideas viejas nos atrapen en el pasado.</p>
 
 
 
