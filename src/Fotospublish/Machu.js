@@ -1,21 +1,29 @@
 import React from "react";
 import { Menu } from "../Menu";
+import { MachuFotos } from "../data/Machufotos"; 
+import { MachuRender } from "../RenderPost/MachuRender";
 import { Footer } from "../footer";
-import Foto1 from "../Imagenes/imgMachuPichu/foto2.png";
-import Foto2 from "../Imagenes/imgMachuPichu/IMG_1053.png";
-import Foto3 from "../Imagenes/imgMachuPichu/IMG_1053.png";
 
 
-function Machu() {
+
+function Machu(props) {
   return (
     <div>
       <Menu /> 
-      <section className="bloglist">
-     <img src={Foto1}  width='400px' />
-     <img src={Foto2}  width='400px'/>
-     <img src={Foto3}  width='400px'/>
+      <section className="bloglist"> 
+     {MachuFotos.map((MachuFotos,index) => (
+    <MachuRender
+    key={index}
+    img={MachuFotos.img}
+    Title={MachuFotos.Title}
+    
+    
+    
+    />
 
 
+
+     ))}
       </section>
       
       <Footer />

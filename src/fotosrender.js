@@ -4,14 +4,13 @@ import './App.css';
 
 function Render(props) {
   return (
-    <Link to={props.Link}>
-    <article className="blog"> 
-      <img src={props.img} alt='' width='50px' />
-      <h6>{props.Title}</h6>
+    <article className="blog" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}> 
+    <Link to={props.Link}  style={{ textDecoration: 'none' }}>
+    <img src={props.img} alt='' width='50px' />
+      <h4 style={{ color: '#161748' }}>📍{props.Title}</h4>
       <p>{props.Description}</p>
-    </article>
   </Link>
-
+  </article>
   
   );
 }
