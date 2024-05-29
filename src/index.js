@@ -9,7 +9,7 @@ import { Blog } from './blog';
 import { Nosotros } from './nosotros';
 import { Machu } from './Fotospublish/Machu';
 import { Rutas } from './blogpost/blog1';
-import { Rio } from './blogpost/RioGuayas'
+import { Rio } from './blogpost/Rioplayas'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -25,7 +25,7 @@ function Main() {
         <Route path="/nosotros" element={<Nosotros />} />
         {/* Ruta para blogs*/}
         <Route path="/blog/Nunka" element={<Rutas />} />
-        <Route path="/blog/RioGuayas" element={<Rio />} />
+        <Route path="/blog/Rioplayas" element={<Rio />} />
          {/* Ruta para Fotos */}
         <Route path="/fotos/MachuPichu" element={<Machu />} />
       </Routes>

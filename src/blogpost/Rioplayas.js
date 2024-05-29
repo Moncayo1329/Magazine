@@ -7,7 +7,7 @@ function Rio() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    import(`../Escritos/RioGuayas.md`) // Ajusta la ruta según la ubicación real del archivo
+    import(`../Escritos/Rioplayas.md`) // Ajusta la ruta según la ubicación real del archivo
       .then(res => {
         return fetch(res.default);
       })

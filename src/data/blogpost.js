@@ -2,7 +2,7 @@
 export const Blogs = [
     {
         id:'1',
-        img:'https://m.media-amazon.com/images/I/81aDxpFVw8L._AC_UF1000,1000_QL80_.jpg',
+        img: require('../Image/nunka.jpg'),
         Title:'Núnka',
         Description:'Núnka es una website hippie sobre viajes y experiencias.',
        Link:'/blog/Nunka'
@@ -10,9 +10,9 @@ export const Blogs = [
 {
     id:'1',
     img:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Collage_Cuenca.png/800px-Collage_Cuenca.png',
-    Title:'Rio Playas',
-    Description:'El primer descenso del Rio playas.' ,
-    Link:'/blog/RioGuayas'
+    Title:'Río Playas',
+    Description:'El primer descenso del río playas.' ,
+    Link:'/blog/Rioplayas'
 
 },
 {
