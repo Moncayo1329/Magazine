@@ -12,7 +12,7 @@ export const Blogs = [
     img:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Collage_Cuenca.png/800px-Collage_Cuenca.png',
     Title:'Rio Playas',
     Description:'El primer descenso del Rio playas.' ,
-    Link:'https://en.wikipedia.org/wiki/Peter_Thiel'
+    Link:'/blog/RioGuayas'
 
 },
 {
