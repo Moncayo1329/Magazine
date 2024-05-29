@@ -51,9 +51,26 @@ body{
   /* Blog styles */
   
   .post{
-    text-align: center;
+    text-align: center; /* Cambio a la alineación izquierda para mejorar la legibilidad */
     color: #130d0d;
+    line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+    font-family: 'Arial', sans-serif; /* Fuente más amigable */
+    margin: 20px 0; /* Márgenes superiores e inferiores */
+    padding: 20px; /* Padding alrededor del contenido */
+  
+  
   }
+
+
+.post p {
+    margin: 8px 0; /* Margen para párrafos */
+}
+
+.post img {
+    max-width: 100%; /* Asegura que las imágenes no sobrepasen el contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    margin: 20px 0; /* Margen alrededor de las imágenes */
+}
 
 
 

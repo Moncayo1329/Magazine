@@ -1,6 +1,7 @@
-Río Playas: La Paciencia en el Descenso
+#Río Playas: La Paciencia en el Descenso
 
-<p style="color: #46526f;">"No se preocupe, señor León", me dijo un maestro cuando estaba aprendiendo a escribir. "No se preocupe si lo hace mal. Es el tiempo y los intentos lo que nos ayuda finalmente a hacer las cosas más rápido y mejor". Esto me lo decía a mí, que no me gusta el tiempo y prefiero hacer las cosas rápido, aunque no siempre mejor. Me gusta empezar desde lo más alto, desde arriba. No me gustan los procesos lentos ni los caminos largos. Quiero aprender lo más difícil primero y luego ir a lo fácil, de arriba abajo, si me entienden.
+<p style="color: #46526f;"> 
+<br>"No se preocupe, señor León", me dijo un maestro cuando estaba aprendiendo a escribir. <br>"No se preocupe si lo hace mal. Es el tiempo y los intentos lo que nos ayuda finalmente a hacer las cosas más rápido y mejor". Esto me lo decía a mí, que no me gusta el tiempo y prefiero hacer las cosas rápido, aunque no siempre mejor. Me gusta empezar desde lo más alto, desde arriba.<br> No me gustan los procesos lentos ni los caminos largos. Quiero aprender lo más difícil primero y luego ir a lo fácil, de arriba abajo, si me entienden.<br>
 
 Es lindo verlo así. Aprendo desde arriba y luego lo de abajo no me cuesta nada. Aplica para todo. ¿La consecuencia? La caída desde arriba duele, y más si no sabes cómo estar ahí. "Empiece desde abajo", me decía, "tal vez no le saldrá bien a la primera, señor León, ni a la segunda, ni a la tercera. Pero tal vez a la cuarta sí le salga. Quién sabe".
 
@@ -17,4 +18,4 @@ Lo curioso es que logramos completar el descenso de esa parte del Playas despué
 Al principio les dije que no era una enseñanza, pero bueno, para que se lleven algo de este blog, les diría que lo esencial de todo esto no es tanto el kayaking, sino que respeten los procesos, empiecen desde abajo, sean pacientes con el tiempo y no se apresuren. No sean como el señor León. Todo tiene su tiempo. No es de los ligeros la carrera, ni de los más fuertes la guerra, sino que tiempo y ocasión acontecen a todos. Así que vayan tranquilos por la vida. Abrazo.</p>
 
 
-<p style="color: #46526f;">Pablo A. León G.</p>
+<p style="color: #46526f;">##Pablo A. León G.</p>

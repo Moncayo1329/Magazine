@@ -9,7 +9,7 @@ export const Blogs = [
     },
 {
     id:'1',
-    img:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Collage_Cuenca.png/800px-Collage_Cuenca.png',
+    img:require('../Image/Rioplyas.jpg'),
     Title:'Río Playas',
     Description:'El primer descenso del río playas.' ,
     Link:'/blog/Rioplayas'

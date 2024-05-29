@@ -1,7 +1,7 @@
 export const MachuFotos = [
 {
 id:'1',
-img:'https://m.media-amazon.com/images/I/81aDxpFVw8L._AC_UF1000,1000_QL80_.jpg',
+img:require('../Image/Rioplyas.jpg'),
 Title:'Ciudadela de Machu Pichu'
 
 },
