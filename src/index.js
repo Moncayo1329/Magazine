@@ -8,6 +8,7 @@ import { App } from './App';
 import { Blog } from './blog';
 import { Nosotros } from './nosotros';
 import { Machu } from './Fotospublish/Machu';
+import {RioPlayas } from './Fotospublish/Rioplayas';
 import { Rutas } from './blogpost/blog1';
 import { Rio } from './blogpost/Rioplayas'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,6 +29,7 @@ function Main() {
         <Route path="/blog/Rioplayas" element={<Rio />} />
          {/* Ruta para Fotos */}
         <Route path="/fotos/MachuPichu" element={<Machu />} />
+        <Route path="/fotos/Rioplayas" element={<RioPlayas />} />
       </Routes>
     </BrowserRouter>
   );

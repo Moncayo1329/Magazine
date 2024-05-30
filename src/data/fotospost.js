@@ -6,29 +6,30 @@ export const FotosData = [
        Link:'/fotos/MachuPichu'
     },
 {
-    id:'1',
-    img:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Collage_Cuenca.png/800px-Collage_Cuenca.png',
-    Title:'New york',
-    Link:'https://en.wikipedia.org/wiki/Peter_Thiel'
+    id:'2',
+    img:require('../Image/Rioplyas.jpg'),
+    Title:'Kayak',
+    Link:'/fotos/Rioplayas'
 
 },
 {
-    id:'1',
+    id:'3',
     img:'https://upload.wikimedia.org/wikipedia/commons/4/4b/Montaje_de_la_Ciudad_de_Buenos_Aires.png',
     Title:'Cuenca',
-    Link:'https://en.wikipedia.org/wiki/Aaron_Swartz'
+    Link:'#'
 
 },
 {
-    id:'1',
+    id:'4',
     img:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rome_Montage_2017.png/375px-Rome_Montage_2017.png',
     Title:'Galapagos',
+    Link:'#'
 
 },
 {
-    id:'1',
+    id:'5',
     img:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rome_Montage_2017.png/375px-Rome_Montage_2017.png',
-    Title:'Kayak',
+    Title:'working',
 
 },
     
