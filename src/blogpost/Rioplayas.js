@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Markdown from "markdown-to-jsx";
 import { Menu } from '../Menu';
-import { Footer } from '../footer'; // Asegúrate de que 'Footer' esté correctamente capitalizado.
+import { Footer } from '../footer';
+import FotoRio from '../Image/Rioplyas.jpg'// Asegúrate de que 'Footer' esté correctamente capitalizado.
 
 function Rio() {
   const [content, setContent] = useState("");
